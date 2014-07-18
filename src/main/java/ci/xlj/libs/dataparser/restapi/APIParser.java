@@ -29,6 +29,13 @@ import ci.xlj.libs.jenkinsvisitor.JenkinsVisitor;
 import ci.xlj.libs.utils.StringUtils;
 import ci.xlj.libs.dataparser.Parsable;
 
+/**
+ * Parse report data from Jenkins Server through API.<br/>
+ * API can be got access to by URI like ".../api/xml" or ".../api/json"
+ * 
+ * @author kfzx-xulj
+ *
+ */
 public class APIParser implements Parsable<List<String>> {
 
 	private static Logger logger = Logger.getLogger(APIParser.class);

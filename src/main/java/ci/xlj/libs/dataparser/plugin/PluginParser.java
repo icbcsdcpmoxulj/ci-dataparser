@@ -21,6 +21,15 @@ package ci.xlj.libs.dataparser.plugin;
 
 import ci.xlj.libs.dataparser.Parsable;
 
+/**
+ * Parse report(like PMD/FindBugs/Cobertura for statistics purposes) data <br/>
+ * from "customized plugins", which means u should isolate the parsing algorithms<br/>
+ * from related report plugins, such as PMD/FindBugs etc., and make it implement <br/>
+ * the "parse" method here.
+ * 
+ * @author kfzx-xulj
+ * 
+ */
 public abstract class PluginParser implements Parsable<String> {
 
 	@Override

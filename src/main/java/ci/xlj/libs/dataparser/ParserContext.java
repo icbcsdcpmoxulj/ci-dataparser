@@ -30,6 +30,13 @@ import org.apache.log4j.Logger;
 import ci.xlj.libs.jenkinsvisitor.JenkinsVisitor;
 import ci.xlj.libs.dataparser.restapi.APIParser;
 
+/**
+ * Parse report data from Jenkins Server through API or customized plugins.<br/>
+ * Strategy Pattern is applied here.
+ * 
+ * @author kfzx-xulj
+ *
+ */
 public class ParserContext {
 
 	private static Logger logger = Logger.getLogger(ParserContext.class);
